@@ -29,25 +29,27 @@
 <body class="bg-pink">
     <img src="./img/lupa.png" alt="Foto de uma mão segurando uma lupa" class="mx-auto  mt-28">
     <h1 class="text-[5.2rem] text-center italic font-display shadow-black drop-shadow-lg shadow-black">
-        <span class="text-purple-900">Search</span><span class="text-white">Lipe</span>
+        <span class="text-purple-900">Search</span><span class="text-white">Lipe!</span>
     </h1>
     <div class="flex justify-center items-center mt-6">
-        <form>   
-            <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <form>
+            <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
             <div class="relative">
                 <input
-                type="search" id="search"
+                type="text" id="search"
                 placeholder="Pensou em algo? Digite aqui"
-                class="w-96 shadow-2xl border-none focus:outline-none block p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="w-96 shadow-2xl border-none focus:outline-none block p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
                 required
                 >
-                <button class="text-purple-900 b-white absolute right-2.5 bottom-2.5 hover:bg-white-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
+                <button type="button" class="text-purple-900 b-white absolute right-2.5 bottom-2.5 hover:bg-white-200 font-medium rounded-lg text-sm px-4 py-2" id="search-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                     </svg>
                 </button>
             </div>
+            <img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/560/cached.offlinehbpl.hbpl.co.uk/galleries/OMC/Brutallyrefreshing1.jpg" alt="Anúncio da Sprite" class="mx-auto object-fill h-14 w-80 mt-4">
         </form>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
