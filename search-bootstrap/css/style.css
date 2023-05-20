@@ -27,12 +27,14 @@
 
 .search-input {
     width: 40rem;
-    height: 3.5rem;
 }
 
 .png-button {
     background: url('/search-bootstrap/img/lupa.png') no-repeat center center;
     width: 4rem;
+}
+
+.search-input, .png-button {
     height: 3.5rem;
 }
 
@@ -50,12 +52,7 @@ div.card.bg-light {
     flex: 1;
 }
 
-#search-input {
-    background-color: #FFFFFF;
-    border-color: #FFFFFF;
-}
-
-#search-button {
+#search-input, #search-button {
     background-color: #FFFFFF;
     border-color: #FFFFFF;
 }
