@@ -29,14 +29,18 @@
     width: 55rem;
 }
 
+div.card.bg-light {
+    opacity: 90%;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
-  }
+}
   
-  #footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 3.5rem;            /* altura do rodapé */
-  }
+}
