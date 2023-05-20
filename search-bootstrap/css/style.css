@@ -1,20 +1,30 @@
 :root {
     --pink: #F8BED4;
-    --purple: rgb(88 28 135);
+    --power-pink: #FF5B99;
+    --purple: #581c87;
     --font-display: 'DM Serif Display';
 }
+
 .bg-pink {
     background-color: var(--pink);
 }
+
 .bg-purple {
     background-color: var(--purple);
 }
+
 .text-purple {
     color: var(--purple);
 }
+
+.text-power-pink {
+    color: var(--power-pink);
+}
+
 .font-display {
     font-family: var(--font-display);
 }
+
 .search-input {
     width: 40rem;
     height: 3.5rem;
@@ -30,6 +40,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+div.card.bg-light {
+    opacity: 90%;
 }
 
 #page-container {
