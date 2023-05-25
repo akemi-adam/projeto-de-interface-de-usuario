@@ -29,11 +29,6 @@
     width: 40rem;
 }
 
-.png-button {
-    background: url('/search-bootstrap/img/lupa.png') no-repeat center center;
-    width: 4rem;
-}
-
 .search-input, .png-button {
     height: 3.5rem;
 }
